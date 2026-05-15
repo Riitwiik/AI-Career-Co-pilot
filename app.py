@@ -85,7 +85,11 @@ FAISS_DIR = DATA_DIR / "faiss_index"
 FAISS_DIR.mkdir(exist_ok=True)
 
 # --- App Settings ---
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+#GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+GROQ_API_KEY = (
+    os.getenv("GROQ_API_KEY")
+    or st.secrets.get("GROQ_API_KEY", "")
+)
 #JWT_SECRET = os.getenv("JWT_SECRET", secrets.token_hex(32))
 JWT_SECRET = os.getenv("JWT_SECRET") or st.secrets.get("JWT_SECRET")
 #JWT_ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
