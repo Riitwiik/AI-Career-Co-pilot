@@ -86,12 +86,39 @@ FAISS_DIR.mkdir(exist_ok=True)
 
 # --- App Settings ---
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-JWT_SECRET = os.getenv("JWT_SECRET", secrets.token_hex(32))
-JWT_ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
-JWT_EXPIRY_HOURS = int(os.getenv("JWT_EXPIRY_HOURS", "24"))
-EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "all-MiniLM-L6-v2")
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama3-8b-8192")
-FASTAPI_PORT = int(os.getenv("FASTAPI_PORT", "8000"))
+#JWT_SECRET = os.getenv("JWT_SECRET", secrets.token_hex(32))
+JWT_SECRET = os.getenv("JWT_SECRET") or st.secrets.get("JWT_SECRET")
+#JWT_ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
+JWT_ALGORITHM = (
+    os.getenv("JWT_ALGORITHM")
+    or st.secrets.get("JWT_ALGORITHM", "HS256")
+)
+#JWT_EXPIRY_HOURS = int(os.getenv("JWT_EXPIRY_HOURS", "24"))
+JWT_EXPIRY_HOURS = int(
+    os.getenv("JWT_EXPIRY_HOURS")
+    or st.secrets.get("JWT_EXPIRY_HOURS", 24)
+)
+#EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "all-MiniLM-L6-v2")
+EMBEDDING_MODEL_NAME = (
+    os.getenv("EMBEDDING_MODEL_NAME")
+    or st.secrets.get(
+        "EMBEDDING_MODEL_NAME",
+        "all-MiniLM-L6-v2"
+    )
+)
+#GROQ_MODEL = os.getenv("GROQ_MODEL", "llama3-8b-8192") or st.secrets.get("GROQ_API_KEY")
+GROQ_MODEL = (
+    os.getenv("GROQ_MODEL")
+    or st.secrets.get(
+        "GROQ_MODEL",
+        "llama-3.1-8b-instant"
+    )
+)
+#FASTAPI_PORT = int(os.getenv("FASTAPI_PORT", "8000"))
+FASTAPI_PORT = int(
+    os.getenv("FASTAPI_PORT")
+    or st.secrets.get("FASTAPI_PORT", 8000)
+)
 
 # --- Logging ---
 logging.basicConfig(
