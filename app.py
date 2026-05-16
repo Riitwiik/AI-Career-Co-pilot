@@ -1,6 +1,6 @@
 """
 =============================================================================
-   AI Career Copilot MVP  —  Single-File Application
+   AI Career Copilot MVP  
    FastAPI (REST APIs) + Streamlit (UI) + SQLite + FAISS + RAG
    Python 3.10 | Free & Open-Source Only | Groq Free Tier
 =============================================================================
