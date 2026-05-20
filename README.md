@@ -253,3 +253,10 @@ Resume used to generate Screenshots
 
 ![Learning Roadmap 4](Learning-roadmap4.png)
 
+
+## Mock interview for desired role
+
+![Mock Interview 1](Mock-interview1.png)
+
+![Mock Interview 2](mock-interview2.png)
+
