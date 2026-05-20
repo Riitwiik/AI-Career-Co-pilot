@@ -101,7 +101,7 @@ Experience relevance
 Education fit
 Overall hiring recommendation
 
-# 🏗️ System Architecture
+## 🏗️ System Architecture
 
 ```text
                 +----------------------+
@@ -133,3 +133,27 @@ Overall hiring recommendation
                 |      Groq LLM        |
                 |  AI Response Engine  |
                 +----------------------+
+```
+## 🧠 RAG Pipeline
+
+Resume Q&A Flow
+
+PDF Resume
+    ↓
+Text Extraction
+    ↓
+Semantic Chunking
+    ↓
+Embedding Generation
+    ↓
+FAISS Indexing
+    ↓
+User Query
+    ↓
+Similarity Search
+    ↓
+Relevant Chunks Retrieved
+    ↓
+Prompt Construction
+    ↓
+Groq LLM Response
