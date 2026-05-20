@@ -240,7 +240,6 @@ Resume used to generate Screenshots
 
 
 
-
 ## Skill Gap Analysis
 
 
@@ -252,7 +251,6 @@ Resume used to generate Screenshots
 
 ![Skill Gap Analysis 4](skill-gap4.png)
 
-![Skill Gap Analysis 5](skill-gap5.png)
 
 
 ## Learning Roadmap
