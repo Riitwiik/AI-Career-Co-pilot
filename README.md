@@ -206,13 +206,19 @@ Groq LLM Response
 
 ## 📄 Sample Resume
 
-You can use the sample resume below to test the application:
+Resume used to generate Screenshots
 
 [📥 Download Sample Resume](Ritwik%20Gupta%20resume%20GenAI1.pdf)
 
 ## Resume Upload
 
 ![Resume Upload Page](Upload-resume.png)
+
+## Resume Question Answer
+
+![Resume Q&A Page 1](QA1.png)
+
+![Resume Q&A Page 2](QA2.png)
 
 
 
