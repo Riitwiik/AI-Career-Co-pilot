@@ -136,6 +136,7 @@ Overall hiring recommendation
 ```
 ## 🧠 RAG Pipeline
 
+```text
 Resume Q&A Flow
 
 PDF Resume
@@ -157,3 +158,6 @@ Relevant Chunks Retrieved
 Prompt Construction
     ↓
 Groq LLM Response
+```
+
+
