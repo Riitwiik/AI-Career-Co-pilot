@@ -272,5 +272,11 @@ Resume used to generate Screenshots
 ![Mock Interview 2](mock-interview2.png)
 
 
-## 
+## Fit Score
+
+![Fit Score 1](Fit-score1.png)
+
+![Fit Score 2](Fit-score2.png)
+
+![Fit Score 3](Fit-Score3.png)
 
