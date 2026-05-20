@@ -220,5 +220,15 @@ Resume used to generate Screenshots
 
 ![Resume Q&A Page 2](QA2.png)
 
+## Skill Gap Analysis
 
+![Skill Gap Analysis 1](skill-gap1.png)
+
+![Skill Gap Analysis 2](skill-gap2.png)
+
+![Skill Gap Analysis 3](skill-gap3.png)
+
+![Skill Gap Analysis 4](skill-gap4.png)
+
+![Skill Gap Analysis 5](skill-gap5.png)
 
