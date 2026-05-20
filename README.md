@@ -200,27 +200,37 @@ Groq LLM Response
 ```
 # 📸 Application Screenshots
 
+
 ## 🔐 Register Page
+
 
 ![Register Page](Register.png)
 
+
 ## 📄 Sample Resume
+
 
 Resume used to generate Screenshots
 
 [📥 Download Sample Resume](Ritwik%20Gupta%20resume%20GenAI1.pdf)
 
+
 ## Resume Upload
+
 
 ![Resume Upload Page](Upload-resume.png)
 
+
 ## Resume Question Answer
+
 
 ![Resume Q&A Page 1](QA1.png)
 
 ![Resume Q&A Page 2](QA2.png)
 
+
 ## Skill Gap Analysis
+
 
 ![Skill Gap Analysis 1](skill-gap1.png)
 
@@ -231,4 +241,15 @@ Resume used to generate Screenshots
 ![Skill Gap Analysis 4](skill-gap4.png)
 
 ![Skill Gap Analysis 5](skill-gap5.png)
+
+
+## Learning Roadmap
+
+![Learning Roadmap 1](Learning-roadmap1.png)
+
+![Learning Roadmap 2](Learning-roadmap2.png)
+
+![Learning Roadmap 3](Learning-roadmap3.png)
+
+![Learning Roadmap 4](Learning-roadmap4.png)
 
