@@ -8,22 +8,36 @@ https://ai-career-co-pilot-kpaoxn6jtw32uhlkcm5o49.streamlit.app/
 
 An end-to-end AI-powered career assistant that helps users analyze resumes, match jobs, identify skill gaps, generate personalized learning roadmaps, practice mock interviews, and calculate recruiter-style fit scores using RAG (Retrieval-Augmented Generation), FAISS vector search, and LLMs powered by Groq.
 
-Built with:
+## Built with:
 
 ⚡ FastAPI (REST APIs)
+
 🎨 Streamlit (Interactive UI)
+
 🧠 Groq LLMs
+
 🔍 FAISS Vector Search
+
 📄 PDF Resume Parsing
+
 🧩 LangChain
+
 🗄️ SQLite
+
 🤖 Sentence Transformers
-📌 Features
+
+## 📌 Features
+
 📄 Resume Upload & Processing
+
 Upload PDF resumes
+
 Extract text using PyMuPDF
+
 Semantic chunking using LangChain
+
 Generate embeddings with SentenceTransformers
+
 Store vectors in FAISS for semantic retrieval
 
 ## 💬 Resume Q&A Chat (RAG)
@@ -31,14 +45,19 @@ Store vectors in FAISS for semantic retrieval
 Ask questions about your resume like:
 
 “What backend technologies do I know?”
+
 “Summarize my ML experience”
+
 “What projects are most relevant for AI Engineer roles?”
 
 The system:
 
 Retrieves relevant resume chunks from FAISS
+
 Builds contextual prompts
+
 Sends them to Groq LLM
+
 Returns grounded answers
 
 ## 🎯 Job Description Matching
@@ -48,8 +67,11 @@ Compare your resume against any job description.
 Provides:
 
 Matching skills
+
 Missing requirements
+
 Compatibility assessment
+
 Improvement suggestions
 
 ## 📊 Skill Gap Analysis
@@ -57,8 +79,11 @@ Improvement suggestions
 Identify:
 
 Skills you already have
+
 Missing technologies
+
 Partial knowledge areas
+
 Priority learning recommendations
 
 ## 🗺️ Personalized Learning Roadmap
@@ -66,15 +91,21 @@ Priority learning recommendations
 Generate phased roadmaps for target roles like:
 
 AI Engineer
+
 ML Engineer
+
 Backend Developer
+
 Data Scientist
 
 Includes:
 
 Topics to learn
+
 Free resources
+
 Projects to build
+
 Progress milestones
 
 ## 🎤 Mock Interview Generator
@@ -82,14 +113,19 @@ Progress milestones
 AI-generated:
 
 Technical questions
+
 Behavioral questions
+
 Situational questions
+
 Culture-fit questions
 
 Each question includes:
 
 What interviewer expects
+
 Difficulty level
+
 Answering tips
 
 ## 📈 Recruiter Fit Score
@@ -97,8 +133,11 @@ Answering tips
 Get recruiter-style evaluations:
 
 Skills match score
+
 Experience relevance
+
 Education fit
+
 Overall hiring recommendation
 
 ## 🏗️ System Architecture
