@@ -204,5 +204,11 @@ Groq LLM Response
 
 ![Register Page](Register.png)
 
+## 📄 Sample Resume
+
+You can use the sample resume below to test the application:
+
+[📥 Download Sample Resume](Ritwik%20Gupta%20resume%20GenAI1.pdf)
+
 
 
