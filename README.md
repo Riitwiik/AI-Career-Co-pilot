@@ -210,5 +210,9 @@ You can use the sample resume below to test the application:
 
 [📥 Download Sample Resume](Ritwik%20Gupta%20resume%20GenAI1.pdf)
 
+## Resume Upload
+
+![Resume Upload Page](Upload-resume.png)
+
 
 
