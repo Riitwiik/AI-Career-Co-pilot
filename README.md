@@ -198,7 +198,11 @@ Prompt Construction
     ↓
 Groq LLM Response
 ```
+# 📸 Application Screenshots
 
+## 🔐 Register Page
+
+![Register Page](Register.png)
 
 
 
